@@ -29,7 +29,7 @@ public class ShiftCipher {
             else {
                 System.out.println("Invalid choice");
             }
-            if(result == 1){
+            if(result == 1){ 
                 break;
             }
 
@@ -42,7 +42,7 @@ public class ShiftCipher {
     //if it is not able to encrypt the string, return 0
     private static int encryption(){
         Scanner input_Scanner = new Scanner(System.in);
-        System.out.println("Enter the string to encrypt: ");
+        System.out.println("Enter the string to encrypt without space: ");
         String input_String = input_Scanner.nextLine();
         System.out.println("Enter the key: ");
         int key = input_Scanner.nextInt();
@@ -84,7 +84,7 @@ public class ShiftCipher {
     //if it is not able to decrypt the string, return 0
     private static int decryption(){
         Scanner input_Scanner = new Scanner(System.in);
-        System.out.println("Enter the string to decrypt: ");
+        System.out.println("Enter the string to decrypt without space: ");
         String input_String = input_Scanner.nextLine();
         System.out.println("Enter the key: ");
         int key = input_Scanner.nextInt();
